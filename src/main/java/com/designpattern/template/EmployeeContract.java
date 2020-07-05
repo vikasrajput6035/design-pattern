@@ -2,12 +2,13 @@ package com.designpattern.template;
 
 public abstract class EmployeeContract {
 
+
     void prepareContract() {
         addCompanyContactInfo();
         addCompanyPolicy();
         addPersonDetails();
         addPrevEmploymentDetails();
-        if(isContractual()) { //here isContractual() method acts as hook
+        if(!isContractual()) { //here isContractual() method acts as hook
             addLeaveBenefits();
             addHealthInsuranceBenefits();
         }
