@@ -2,11 +2,11 @@
 Implementation of all the popular design pattern are being covered in this repository using Java
 
 # Creational
-1. Factory Method
-2. Abstract Factory Method
-3. Singleton
-4. Builder
-5. Prototype
+1. Factory Method Pattern
+2. Abstract Factory Method Pattern
+3. Singleton Pattern
+4. Builder Pattern
+5. Prototype Pattern
 
 # Behavioral
 6. Template Method Pattern
